@@ -18,10 +18,7 @@ Seedmine is a Polkadot-powered, on-chain project marketplace that brings founder
 - A wallet with some test tokens on the Westend Asset Hub network
 
 ## Screenshots: 
-<p align="center">
-  <img src="![Screenshot 2025-04-27 092323](https://github.com/user-attachments/assets/1e710d4b-993f-47bd-94ed-82a263471f69)
-" alt="Mobile preview" width="300">
-</p>
+
 
 
 ## Block explorer link for deployed smart contract on Asset Hub
