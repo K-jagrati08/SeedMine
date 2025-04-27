@@ -18,6 +18,16 @@ Seedmine is a Polkadot-powered, on-chain project marketplace that brings founder
 - A wallet with some test tokens on the Westend Asset Hub network
 
 ## Screenshots: 
+# Project Screenshots
+
+## Image 1
+![Image 1](image1.png)
+
+## Image 2
+![Image 2](image2.png)
+
+## Image 3
+![Image 3](image3.png)
 
 
 
