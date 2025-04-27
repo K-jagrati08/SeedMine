@@ -1,12 +1,28 @@
-# Ethers.js Asset Hub Project
+## Seedmine
 
-This project demonstrates how to interact with the Polkadot Asset Hub using Ethers.js. It includes a simple Storage smart contract and scripts to compile, deploy, and interact with it.
+This project demonstrates how to interact with the Polkadot Asset Hub using Ethers.js. It includes a simple Storage smart contract and scripts to compile, deploy, and interact with it. It Offers a decentralized Web3 project marketplace that helps founders list & fund Git-backed ideas while giving investors on-chain governance and verifiable milestones via Polkadot. 
+
+## Description: 
+Seedmine is a Polkadot-powered, on-chain project marketplace that brings founders and investors together. Founders connect their wallet, publish a GitHub-backed idea, and specify milestone-based funding tranches enforced by a Solidity smart contract on the Westend Asset Hub. Investors browse live projects, stake DOT or community tokens into funding pools, and receive NFT-based governance rights. Seedmine makes every step fully transparent, from code commits to fund releases, streamlining early-stage financing in Web3.
+
+## Technical Description:
+1) Smart contracts in Solidity (PolkaVM) handle project creation, funding, vesting schedules, and milestone approvals.
+2) Ethers.js scripts (compile.js, deploy.js, checkStorage.js) compile, deploy, and interact with the contract on Westend Asset Hub.	
+3) React + Vite + Tailwind frontend at localhost:5173 drives wallet connections, UI, and real-time updates.	
+4) Polkadot Asset Hub provides secure scaling, low fees, and native chain-level governance features.	
 
 ## Prerequisites
 
 - Node.js v22.13.1 or later
 - npm v6.13.4 or later
 - A wallet with some test tokens on the Westend Asset Hub network
+
+## Screenshots: 
+
+
+
+## Block explorer link for deployed smart contract on Asset Hub
+https://assethub-westend.subscan.io/account/0x23b85081fd93a40608454d54a1088c328260cf02
 
 ## Project Structure
 
