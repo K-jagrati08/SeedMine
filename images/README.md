@@ -30,8 +30,7 @@ Polkadot Asset Hub’s shared-security, low-fee environment and on-chain governa
 https://www.canva.com/design/DAGlzrqkodY/bMUl2x0WklenWYNuC734nw/edit?utm_content=DAGlzrqkodY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ## Video Link: 
 https://youtu.be/iA_-hSlSwzg
-## Screenshots: 
-# Project Screenshots
+## Project Screenshots
 
 ## Image 1
 ![Image 1](image1.png)
@@ -41,8 +40,6 @@ https://youtu.be/iA_-hSlSwzg
 
 ## Image 3
 ![Image 3](image3.png)
-
-
 
 ## Block explorer link for deployed smart contract on Asset Hub
 https://assethub-westend.subscan.io/account/0x23b85081fd93a40608454d54a1088c328260cf02
