@@ -50,7 +50,7 @@ https://assethub-westend.subscan.io/account/0x23b85081fd93a40608454d54a1088c3282
 ```
 ethers-asset-hub/
 ├── contracts/
-│   ├── Storage.sol
+│   ├──Storage.sol
 ├── scripts/
 │   ├── connectToProvider.js
 │   ├── compile.js
@@ -72,8 +72,12 @@ ethers-asset-hub/
 ```bash
 npm install
 ```
+## Usage (Smart Contracts):
 
-## Usage (Project & Smart Contracts)
+The `ProjectFunding` contract begins by letting anyone register as either a **founder** or an **investor**, storing each user’s name, role, and Telegram handle on‐chain to enforce access control. Once registered, a founder can call `createProject`—providing a name, description, GitHub link, and funding goal—to spawn a new `Project` struct (with zero initial funding and an “active” flag). This struct is appended to an array, and the `ProjectCreated` event is emitted so that off‐chain services can pick up the new proposal.
+Investors interact via `investInProject`, sending funds directly to the founder’s payable address and incrementing both the project’s `currentFunding` tally and that investor’s personal stake in a nested mapping. The contract automatically adds first‐time backers to the project’s `investors` list and emits `ProjectFunded` each time someone contributes. As soon as the total funding meets or exceeds the `requiredFunding`, the contract flips `isActive` to false—preventing any further investments. Throughout, read‐only getters like `getProject`, `getProjectCount`, and `getUserInfo` allow anyone to query users, projects, and investment details, while events (`UserRegistered`, `ProjectCreated`, `ProjectFunded`) keep UIs and indexing services in sync. This simple yet robust flow guarantees transparent, on‐chain registration, project lifecycle management, and immediate payout to founders.
+
+## Usage (Project)
 
 1. Compile the smart contract:
 ```bash
