@@ -1,7 +1,7 @@
 # SeedMine
 
-> **Short Summary (<150 chars):**  
-> A decentralized funding hub on Polkadot Asset Hub powering transparent, on-chain grants for Web3 projects.
+**Short Summary (<150 chars):**  
+A decentralized funding hub on Polkadot Asset Hub powering transparent, on-chain grants for Web3 projects.
 
 ## Full Description
 
