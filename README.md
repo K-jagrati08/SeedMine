@@ -1,9 +1,18 @@
-## Seedmine
+# SeedMine
 
-This project demonstrates how to interact with the Polkadot Asset Hub using Ethers.js. It includes a simple Storage smart contract and scripts to compile, deploy, and interact with it. It Offers a decentralized Web3 project marketplace that helps founders list & fund Git-backed ideas while giving investors on-chain governance and verifiable milestones via Polkadot. 
+> **Short Summary (<150 chars):**  
+> A decentralized funding hub on Polkadot Asset Hub powering transparent, on-chain grants for Web3 projects.
 
-## Description: 
-Seedmine is a Polkadot-powered, on-chain project marketplace that brings founders and investors together. Founders connect their wallet, publish a GitHub-backed idea, and specify milestone-based funding tranches enforced by a Solidity smart contract on the Westend Asset Hub. Investors browse live projects, stake DOT or community tokens into funding pools, and receive NFT-based governance rights. Seedmine makes every step fully transparent, from code commits to fund releases, streamlining early-stage financing in Web3.
+## Full Description
+
+**Problem Statement**  
+Traditional grant programs and hackathon prizes suffer from opaque processes, off-chain coordination overhead, and high fees. Builders struggle to find transparent, low-friction funding.
+
+**Solution Overview**  
+SeedMine is an open-source, on-chain funding marketplace where project teams submit proposals and community members stake DOT to back them. All votes, funding flows, and vesting schedules are executed by custom smart contracts on Polkadot Asset Hub, ensuring trustless, automated disbursements and on-chain governance.
+
+**Why Polkadot?**  
+Polkadot Asset Hub’s shared-security, low-fee environment and on-chain governance pallets allow SeedMine’s custom funding logic to run seamlessly. XCM messaging ensures cross-chain compatibility for future expansions. 
 
 ## Technical Description:
 1) Smart contracts in Solidity (PolkaVM) handle project creation, funding, vesting schedules, and milestone approvals.
@@ -38,7 +47,8 @@ https://youtu.be/iA_-hSlSwzg
 ## Block explorer link for deployed smart contract on Asset Hub
 https://assethub-westend.subscan.io/account/0x23b85081fd93a40608454d54a1088c328260cf02
 
-## Project Structure
+## 📁 Repository Structure 
+
 
 ```
 ethers-asset-hub/
