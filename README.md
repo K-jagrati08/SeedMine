@@ -76,7 +76,7 @@ ethers-asset-hub/
 npm install
 ```
 
-## Usage
+## Usage (Project & Smart Contracts)
 
 1. Compile the smart contract:
 ```bash
